@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form name="imcForm" id="imcForm" >
+        <h2>Calcular IMC</h2>
+        <div id="display" class="display"><p></p></div>
+        <label for="altura" class="altura-peso">Altura</label>
+        <input type="text" id="altura" name="altura"/>
+
+        <label for="peso" class="altura-peso">Peso</label>
+        <input type="text" id="peso" name="peso"/>
+        
+        <p><input type="button" value="Calcular" onclick="calcula_imc()" class="button" /></p>
+    </form>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
